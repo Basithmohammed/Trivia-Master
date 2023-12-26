@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="icon" href="files/images.jpeg">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Cairo');
+        body {
+          background-image: url('files/mainbackground.jpg');
+          background-repeat:no-repeat;
+          background-size:cover;
+
+
+        }
+        .title{
+            display:flex;
+            justify-content:center;
+            align-item:center;
+            margin-top:250px;
+        }
+
+        h1 {
+          background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+          background-size: cover;
+          color: transparent;
+          -moz-background-clip: text;
+          -webkit-background-clip: text;
+          text-transform: uppercase;
+          font-size: 120px;
+          margin: 10px 0;
+
+        }
+        .button {
+          padding: 15px 25px;
+          font-size: 18px;
+          text-align: center;
+          cursor: pointer;
+          outline: none;
+          color: #fff;
+          background: linear-gradient(90deg, white, grey, white100%);
+          border: none;
+          border-radius: 15px;
+          box-shadow: 0 6px #999;
+          margin-left:600px;
+          margin-top:90px;
+
+        }
+
+        .button:hover {
+            background-color: #09A6F3;
+        }
+
+        .button:active {
+          background-color: #07C8F9;
+          box-shadow: 0 3px #666;
+          transform: translateY(4px);
+        }
+        .button a{
+            text-decoration:none;
+            color:orange;
+            font-family:Helvetica, sans-serif;
+            font-weight:bold;
+        }
+        .button2{
+            margin-left:30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h1 >Trivia - Master</h1>
+    </div>
+    <button class="button button1"><a href="register.py">REGISTER  </a></button>
+    <button class="button button2"><a href="login.py">LOGIN  </a></button>
+
+</body>
+</html>
